@@ -1,0 +1,30 @@
+/* Artifact Attachment Folder View */
+.artifactAttachmentFolderBody {
+  padding-top: 45px;
+}
+
+.folderIndexEntryTraverseUp, .folderIndexEntryFolder, .attachmentEntryFolder {
+  font-weight: bold;
+}
+
+.folderIndexEntryTraverseUp, .folderIndexEntryFile, .attachmentEntryFile, .folderIndexEntryFolder, .attachmentEntryFolder {
+  text-decoration: none;
+  white-space:nowrap;
+}
+
+.folderIndexEntryTraverseUp {
+  padding:0 0 0 18px;
+}
+
+.folderIndexEntryFile, .attachmentEntryFile, .folderIndexEntryFolder, .attachmentEntryFolder {
+  padding:0 0 0 30px;
+}
+
+/* RTL */
+html[dir="rtl"] .folderIndexEntryTraverseUp {
+  padding:0 18px 0 0;
+}
+
+html[dir="rtl"] .folderIndexEntryFile, html[dir="rtl"] .attachmentEntryFile, html[dir="rtl"] .folderIndexEntryFolder, html[dir="rtl"] .attachmentEntryFolder {
+  padding:0 30px 0 0;
+}
